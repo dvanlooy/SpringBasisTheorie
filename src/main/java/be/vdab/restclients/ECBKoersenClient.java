@@ -4,10 +4,10 @@ import java.math.BigDecimal;
 import java.net.URL;
 import java.util.Scanner;
 
-public class ECBKoersenClient implements KoersenClient {
+class ECBKoersenClient implements KoersenClient {
 	private final URL url;
 
-	public ECBKoersenClient(URL url) {
+	ECBKoersenClient(URL url) {
 		this.url = url;
 	}
 

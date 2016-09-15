@@ -10,14 +10,14 @@ import org.springframework.stereotype.Component;
 
 //@Component
 //@Qualifier("Yahoo")
-public class YahooKoersenClient implements KoersenClient {
+class YahooKoersenClient implements KoersenClient {
 	private final URL url;
 
 	// public YahooKoersenClient(URL url) {
 	// this.url = url;
 	// }
 
-	public YahooKoersenClient(
+	YahooKoersenClient(
 //			@Value("${yahooKoersenURL}") 
 			URL url) { 
 		this.url = url;
