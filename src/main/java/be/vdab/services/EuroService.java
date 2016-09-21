@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import be.vdab.restclients.KoersenClient;
+
+
 @Service
 @Qualifier
 public class EuroService {

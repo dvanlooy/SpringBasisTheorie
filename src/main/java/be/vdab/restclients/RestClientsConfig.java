@@ -15,13 +15,12 @@ public class RestClientsConfig {
 	@Bean
 	@Qualifier("ECB")
 	ECBKoersenClient ecbKoersenClient(@Value("${ecbKoersenURL}") URL url) {
-		return new ECBKoersenClient(url);
+	return new ECBKoersenClient(url);
 	}
-
 	@Bean
 	@Qualifier("Yahoo")
 	YahooKoersenClient yahooKoersenClient(@Value("${yahooKoersenURL}") URL url) {
-		return new YahooKoersenClient(url);
+	return new YahooKoersenClient(url);
 	}
 
 }
